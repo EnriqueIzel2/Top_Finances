@@ -22,5 +22,10 @@ class MainActivity : AppCompatActivity() {
       val intent = Intent(this, InvoiceActivity::class.java)
       startActivity(intent)
     }
+
+    binding.imgTransfer.setOnClickListener {
+      val intent = Intent(this, TransferActivity::class.java)
+      startActivity(intent)
+    }
   }
 }
