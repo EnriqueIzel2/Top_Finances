@@ -22,8 +22,6 @@ class BalanceActivity : AppCompatActivity() {
     toolbar.setTitleMargin(300, 0, 0, 0)
     toolbar.setNavigationIcon(getDrawable(R.drawable.ic_arrow_back_ios_34))
     toolbar.setNavigationOnClickListener {
-      val intent = Intent(this, MainActivity::class.java)
-      startActivity(intent)
       finish()
     }
   }
