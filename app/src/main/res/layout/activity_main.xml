@@ -60,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/img_invoice" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/img_transfer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -70,7 +70,7 @@
         app:srcCompat="@drawable/transferencia" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img_saving"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -90,7 +90,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/img_transfer" />
 
     <TextView
         android:id="@+id/textView4"
@@ -103,5 +103,5 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/img_saving" />
 </androidx.constraintlayout.widget.ConstraintLayout>
