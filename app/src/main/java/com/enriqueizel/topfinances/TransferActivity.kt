@@ -11,5 +11,18 @@ class TransferActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     binding = ActivityTransferBinding.inflate(layoutInflater)
     setContentView(binding.root)
+
+    supportActionBar!!.hide()
+
+    val toolbar = binding.toolbarTransfer
+
+    toolbar.setBackgroundColor(getColor(R.color.light_blue))
+    toolbar.title = "Transferência"
+    toolbar.setTitleTextColor(getColor(R.color.white))
+    toolbar.setNavigationIcon(getDrawable(R.drawable.ic_arrow_back_ios_34))
+    toolbar.setTitleMargin(200, 0, 0, 0)
+    toolbar.setOnClickListener {
+      finish()
+    }
   }
 }
