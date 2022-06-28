@@ -27,5 +27,10 @@ class MainActivity : AppCompatActivity() {
       val intent = Intent(this, TransferActivity::class.java)
       startActivity(intent)
     }
+
+    binding.imgSaving.setOnClickListener {
+      val intent = Intent(this, SavingActivity::class.java)
+      startActivity(intent)
+    }
   }
 }
