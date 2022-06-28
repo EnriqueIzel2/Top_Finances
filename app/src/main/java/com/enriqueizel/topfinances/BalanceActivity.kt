@@ -19,7 +19,6 @@ class BalanceActivity : AppCompatActivity() {
     toolbar.title = "Saldo"
     toolbar.setBackgroundColor(getColor(R.color.light_blue))
     toolbar.setTitleTextColor(getColor(R.color.white))
-    toolbar.setTitleMargin(300, 0, 0, 0)
     toolbar.setNavigationIcon(getDrawable(R.drawable.ic_arrow_back_ios_34))
     toolbar.setNavigationOnClickListener {
       finish()
