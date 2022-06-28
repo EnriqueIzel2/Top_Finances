@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
       val intent = Intent(this, BalanceActivity::class.java)
       startActivity(intent)
     }
+
+    binding.imgInvoice.setOnClickListener {
+      val intent = Intent(this, InvoiceActivity::class.java)
+      startActivity(intent)
+    }
   }
 }
